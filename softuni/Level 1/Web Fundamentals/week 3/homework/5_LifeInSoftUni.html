@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Life In SoftUni</title>
+        <style>
+            body{
+                font-family: Tahoma;
+            }
+            td, th {
+                height: 100px;
+                padding: 5px;
+            }
+            #outsideTable table td {
+                height: 30px;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 12px 0px;
+            }
+            table table {
+                width: 100%;
+                text-align: center;
+            }
+            #outsideTable {
+                width: 460px;
+            }
+            table {
+                font-size: 20px;
+            }
+            col {
+                width: 25%;
+            }
+            th {
+                font-size: 48px;
+            }
+            .topLeft {
+                vertical-align: top;
+            }
+            .topRight {
+                vertical-align: top;
+                text-align: right;
+            }
+            .topMiddle {
+                vertical-align: top;
+                text-align: center;
+            }
+            .bottomMiddle {
+                vertical-align: bottom;
+                text-align: center;
+            }
+            .bottomLeft {
+                vertical-align: bottom;
+            }
+            .bottomRight {
+                vertical-align: bottom;
+                text-align: right;
+            }
+            .rightMiddleBolded {
+                text-align: right;
+                font-size: 28px;
+            }
+            .smallPadding {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px" id="outsideTable">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th colspan="4">SoftUni LIFE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="topLeft">Google</td>
+                    <td colspan="2" class="topRight">GitHub</td>
+                </tr>
+                <tr>
+                    <td class="topMiddle">FB</td>
+                    <td>GMail</td>
+                    <td class="bottomMiddle">YouTube</td>
+                    <td>2048</td>
+                </tr>
+                <tr>
+                    <td class="bottomRight">Food</td>
+                    <td colspan="2" class="bottomLeft">Game</td>
+                    <td class="smallPadding">
+                        <table border="1px">
+                            <tr><td>Social Life</td></tr>
+                            <tr><td>Sleep</td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="rightMiddleBolded">Beer ></td>
+                    <td>WC</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

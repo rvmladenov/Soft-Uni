@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Simple Form</title>
+        <style>
+            body {
+                background-color: #eeeeee;
+                font-family: Tahoma, "Times New Roman", sans-serif;
+            }
+            input {
+                border: 1px solid #dedede;
+                width: 90%; /* Just a fallback */
+                width: calc(100% - 20px);
+                width: -moz-calc(100% - 20px);
+                width: -webkit-calc(100% - 20px);
+                margin: 0;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            h5 {
+                color: #234465;
+                font-size: 24px;
+                font-weight: bold;
+                margin: 10px 0px;
+            }
+            section section h5 {
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+            input[type="submit"],
+            input[type="checkbox"] {
+                width: auto;
+            }
+            input[type="checkbox"] {
+                margin-top: 10px;
+                height: 20px;
+                width: 20px;
+                float: left;
+            }
+            input[type="checkbox"]+label {
+                line-height: 40px;
+                margin-left: 5px;
+            }
+            input[type="submit"] {
+                padding: 9px 40px;
+                transition: 0.4s;
+                cursor: pointer;
+                background-color: rgba(0,0,0,0);
+            }
+            input[type="submit"]:hover {
+                background-color: #FF9C00;
+            }
+            .floatRight {
+                float: right;
+            }
+            .underlined {
+                padding-right: 7px;
+                text-align: right;
+                font-size: 12px;
+            }
+            .underlined > a {
+                color:#fff;
+            }
+            section section {
+                display: inline-block;
+                width: 290px;
+                padding: 15px;
+                vertical-align: top;
+                box-sizing: content-box;
+            }
+            #loginSection {
+                position: relative;
+                color: #fff;
+                background-color: #234465;
+                height: 248px;
+            }
+            #loginSection h5 {
+                color: #fff;
+                margin: 15px 0;
+            }
+            #registerSection input[type="submit"] {
+                padding: 9px 50px;
+                border: 2px solid #234465;
+                color: #234465;
+                font-weight: bold;
+            }
+            #registerSection input[type="submit"]:hover {
+                background-color: #234465;
+                color: #fff;
+            }
+            #loginSection input[type="submit"] {
+                border: 2px solid #FF9C00;
+                color: #fff;
+                margin-bottom: 0px;
+            }
+            .white {
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h5>Enter the system</h5>
+            <p>
+                It is necessary to login in Your account in order to sign in for a course.
+            </p>
+        </header>
+        <section>
+            <section id="registerSection">
+                <form action="">
+                    <h5><span class="white">ARE YOU NEW? </span>REGISTER</h5>
+                    <input type="text" placeholder="User name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <input type="password" placeholder="Confirm Password" />
+                    <div>
+                        <input type="submit" value="Register" class="floatRight" />
+                    </div>
+                </form>
+            </section>
+            <section id="loginSection">
+                <form action="">
+                    <h5>Already a student? login</h5>
+                    <input type="text" placeholder="User name" />
+                    <input type="password" placeholder="Password" />
+                    <input type="submit" value="Login" class="floatRight" />
+                    <input id="check" type="checkbox" /><label for="check">Remember me?</label>
+                </form>
+                <div class="underlined"><a href="#">Forgot Password</a></div>
+            </section>
+        </section>
+    </body>
+</html>

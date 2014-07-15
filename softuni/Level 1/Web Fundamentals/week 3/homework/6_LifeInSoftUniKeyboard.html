@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Life In Soft Uni Keyboard</title>
+        <style>
+            body{
+                font-family: Tahoma;
+            }
+            body > table {
+                width: 365px;
+            }
+            th {
+                text-transform: uppercase;
+                font-size: 22px;
+            }
+            td, th {
+                text-align: center;
+                padding: 3px;
+            }
+            td {
+                font-size:14px;
+                font-weight: bold;
+            }
+            a {
+                text-decoration: none;
+                color: blue;
+                background-image: url(images/bg_big.jpg);
+                border: 1px solid gray;
+                border-radius: 3px;
+                display: block;
+                padding: 30px 0px;
+            }
+            th a {
+                padding: 24px 0px;
+            }
+            .rightAlign {
+                text-align: right;
+                padding-right: 0px;
+            }
+            col {
+                width: 25%;
+            }
+            #insideTable {
+                width: 100%;
+            }
+            #insideTable td {
+                font-size: 12px;
+                font-weight: normal;
+                padding: 0px;
+            }
+            #insideTable .additionalPadding {
+                padding-bottom: 2px;
+            }
+            #insideTable td a {
+                background-image: url(images/bg_small.jpg);
+                padding: 10px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px">
+            <colgroup><col /><col /><col /><col /></colgroup>
+            <thead>
+                <tr><th colspan="4">
+                        <a href="http://softuni.bg" target="_blank">Software University</a>
+                    </th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <a href="http://google.com" target="_blank">
+GOOGLE</a>
+                    </td>
+                    <td colspan="2">
+                        <a href="http://github.com" target="_blank">
+GitGub</a>
+                    </td>
+                </tr>
+                    <td><a href="http://facebook.com" target="_blank">Facebook</a></td>
+                    <td><a href="http://gmail.com" target="_blank">GMail</a></td>
+                    <td><a href="http://youtube.com" target="_blank">YouTube</a></td>
+                    <td><a href="http://http://gabrielecirulli.github.io/2048/" target="_blank">2048</a></td>
+                <tr>
+                </tr>
+                <tr>
+                    <td><a href="http://bk.com" target="_blank">Food</a></td>
+                    <td colspan="2"><a href="http://djagi.sportal.bg/" target="_blank">Game</a></td>
+                    <td>
+                        <table id="insideTable">
+                            <tr><td class="additionalPadding"><a href="http://plus.google.com" target="_blank">Social life</a></td></tr>
+                            <tr><td><a href="http://zamunda.se" target="_blank">Sleep</a></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="rightAlign"><a href="javascript:alert('Beer');">Beer>>></a></td>
+                    <td><a href="http://softuni.bg" target="_blank">WC</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

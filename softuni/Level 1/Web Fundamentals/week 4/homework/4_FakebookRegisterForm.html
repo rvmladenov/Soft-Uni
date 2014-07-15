@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8" />
+		<title>Flight Order</title>
+        <style>
+            body{
+                background-color: #3b5997;
+                color: white;
+                font-family: Tahoma;
+            }
+            header {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            #body {
+                left: 50%;
+                position: relative;
+            }
+            #body > form {
+                position: relative;
+                left: -50%;
+            }
+            h2, h4 {
+                text-align: center;
+                font-style: bold;
+                margin: 10px;
+            }
+            h2 {
+                margin-top: 20px;
+                font-size: 38px;
+            }
+            h4 {
+                font-size: 19px;
+            }
+            legend{
+                text-align: center;
+                font-weight: bold;
+                font-size: 13px;
+            }
+            fieldset {
+                border: 1px solid #fff;
+                height: 100%;
+                border-radius: 10px;
+            }
+            input,
+            textarea {
+                border-radius: 4px;
+            }
+            input,
+            select {
+                line-height: 25px;
+                height: 25px;
+                margin-bottom: 5px;
+            }
+            input[type="submit"],
+            input[type="reset"] {
+                border-radius: 10px;
+                border: 0px;
+            }
+            label {
+                font-size: 13px;
+            }
+            section {
+                float:left;
+                height: 240px;
+            }
+            section section:first-child {
+                margin-right: 30px;
+            }
+            input[type="submit"]{
+                width: 100%;
+                margin: 21px 0;
+                height: 50px;
+            }
+            input[type="reset"]{
+                width: 100%;
+                margin: 21px 0;
+                height: 50px;
+            }
+            input[type="color"] {
+                width: 30%;
+            }
+    </style>
+	</head>
+	<body>
+        <header>
+            <img src="images/fakebook_logo.jpg" alt="" />
+            <h2>Registration</h2>
+            <h4>It is safe and it will always be !</h4>
+        </header>
+        <section id="body">
+            <form method="get">
+                <section>
+                    <fieldset>
+                        <legend>None-Important Information</legend>
+                        <input type="text" name="fname" id="fname"
+                            placeholder="First Name"
+                            pattern="[A-Za-z]+" />
+                        <input type="text" name="lname" id="lname"
+                            placeholder="Last Name"
+                            pattern="[A-Za-z]+" />
+                        <br />
+                        <input type="email" name="email" id="email"
+                            placeholder="Your Email"
+                            pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" />
+                        <input type="tel" name="phone" id="phone"
+                            placeholder="Phone Number"
+                            pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}" />
+                        <br />
+                        <input type="password" name="pass" id="pass"
+                            placeholder="Your Password" />
+                        <input type="url" name="website" id="website"
+                            placeholder="Website"
+                            pattern="[0-9.]+" />
+                        <br />
+                        <label for="birthday">Birthday</label>
+                        <br />
+                        <input type="datetime-local" name="bdaytime">
+                         <br />
+                        <input name="gender" type="radio" id="gm" value="male" />
+                        <label class="inline" for="gm">Male</label>
+                        <input name="gender" type="radio" id="gf" value="female" />
+                        <label class="inline" for="gf">Female</label>
+                        <input name="gender" type="radio" id="go" value="other" />
+                        <label class="inline" for="gf">Other</label>
+
+                    </fieldset>
+                    <div>
+                        <input type="reset" name="clearForm" value="Clear Form" />
+                    </div>
+            </section>
+
+            <section >
+                <fieldset>
+                    <legend>Important Information *required</legend>
+
+                    <input type="text" name="country" id="country"
+                        placeholder="Country"
+                        pattern="[A-Za-z]+" required="true" />
+                     <input type="text" name="village" id="villige"
+                        placeholder="Village"
+                        pattern="[A-Za-z]+" required="true"  />
+                     <input type="text" name="district" id="district"
+                        placeholder="District"
+                        pattern="[A-Za-z]+" required="true"  />
+                     <br />
+                     <input type="text" name="street" id="street"
+                        placeholder="Street"
+                       pattern="[A-Za-z]+" required="true" />
+                     <input type="text" name="number" id="number" size="6"
+                        placeholder="Nr"
+                        pattern="[0-9]+" required="true"  />
+                    <input type="text" name="floor" id="floor" size="6"
+                        placeholder="Floor"
+                        pattern="[0-9]+" required="true"  />
+                    <input type="text" name="apnum" id="apnum" size="6"
+                        placeholder="Ap Nr"
+                        pattern="[0-9]+" required="true"  />
+                      <br />
+                     <label for="doorColor">Door Color</label>
+                     <br />
+                    <input type="color" name="doorColor" id="doorColor" 
+                        pattern="[0-9]+" required="true" value="#ff80c0"  />
+                    <input type="text" name="waterMeter" id="waterMeter" 
+                        placeholder="Water Meter"
+                        pattern="[0-9]+" required="true"  />        
+                     <select name="class" id="class" autofocus="true" required="true">
+                        <option value="aunt" selected="selected">Aunt Panties' Size</option>
+                     </select>
+                     <br />
+                     <label for="info">More Personal Information</label>
+                    <br />
+                    <textarea id="info" cols="59" rows="4" required="true" placeholder="Give Us More Information!!!"></textarea>
+                 </fieldset>
+                    <div>
+                        <input type="submit" name="register" value="Register" />
+                    </div>
+                </section>
+            </form>
+        </section>
+	</body>
+</html>

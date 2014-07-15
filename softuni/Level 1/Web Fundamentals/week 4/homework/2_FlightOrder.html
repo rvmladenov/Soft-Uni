@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Flight Order</title>
+        <style>
+            body {
+                font-family: Tahoma, sans-serif;
+                font-style: italic;
+            }
+            section {
+                display: inline-block;
+                vertical-align: top;
+            }
+            #body {
+                padding: 10px;
+                background-color: #ffc0cb;
+            }
+            label {
+                font-size: 12px;
+                display: inline-block;
+                margin-bottom: 5px;
+            }
+            h1 {
+                text-transform: uppercase;
+                text-align: center;
+                margin: 0;
+                font-weight: bolder;
+            }
+            section > form > section {
+                width: 170px;
+                overflow: hidden;
+                
+            }
+            .blank {
+                height: 25px;
+            }
+            input, select {
+                height:25px;
+                margin: 0px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            select, input[type="number"] {
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .clear:after {
+                content: ".";
+                display: block;
+                height: 0;
+                font-size: 0pt;
+                clear: both;
+                visibility: hidden;
+            }
+            input[type="checkbox"] {
+                float: left;
+                width: 10px;
+                margin-right: 5px;
+            }
+            input[type="checkbox"]+label {
+                margin-bottom: 0px;
+            }
+            input[type="submit"] {
+                height: auto;
+                margin-top: 3px;
+                font-weight: bold;
+                padding: 5px 0;
+            }
+            div.cells-2 > div {
+                width: 82px;
+                display: inline-block;
+            }
+            div.cells-3 > div {
+                width: 53px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="body">
+            <h1>Flight Order</h1>
+            <form>
+                <section id="left">
+                    <div>
+                        <label for="fromCity">From</label><br />
+                        <select id="fromCity">
+                            <option>enter a city 2</option>
+                            <option selected>enter a city</option>
+                        </select>
+                    </div>
+                    <div class="blank">&nbsp;</div>
+                    <div>
+                        <label for="depDt">Departure Date</label><br />
+                        <input type="date" id="depDt" value="09.06.2014" />
+                    </div>
+                    <div>
+                        <label for="returnDt">Return Date</label><br />
+                        <input type="date" id="returnDt" value="13.06.2014" />
+                    </div>
+                    <div class="cells-3">
+                        <div>
+                            <label for="num1">12+</label><br />
+                            <input type="number" id="num1" value="0" />
+                        </div>
+                        <div>
+                            <label for="num2">2-12</label><br />
+                            <input type="number" id="num2" value="0" />
+                        </div>
+                        <div>
+                            <label for="num3">0-2</label><br />
+                            <input type="number" id="num3" value="0" />
+                        </div>
+                    </div>
+                </section>
+                <section id="right">
+                    <div>
+                        <label for="toCity">To</label><br />
+                        <select id="toCity">
+                            <option>enter a city 2</option>
+                            <option selected>enter a city</option>
+                        </select>
+                    </div>
+                    <div class="clear">
+                        <input type="checkbox" id="predDir" />
+                        <label for="predDir">Prefer Directs</label>
+                    </div>
+                    <div class="cells-2">
+                        <div>
+                            <label for="timeInt">Time Interval</label><br />
+                            <input type="time" id="timeInt" value="00:20" />
+                        </div>
+                        <div>
+                            <input type="time" value="05:00" />
+                        </div>
+                    </div>
+                    <div class="cells-2">
+                        <div>
+                            <label for="timeInt2">Time Interval</label><br />
+                            <input type="time" id="timeInt2" value="16:00" />
+                        </div>
+                        <div>
+                            <input type="time" value="22:00" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="class">Choose class</label><br />
+                        <select id="class">
+                            <option>Not Economy</option>
+                            <option selected>Economy</option>
+                            <option>Disco</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Search" />
+                </section>
+            </form>
+        </section>
+    </body>
+</html>

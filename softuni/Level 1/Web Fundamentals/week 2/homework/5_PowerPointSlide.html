@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>PowerPoint Slide</title>
+    </head>
+    <style>
+        body {
+            font-family: Calibri;
+            margin-left: 5px;
+            margin-right: 10px;
+            padding: 0px;
+            background-image: url(images/softuni_bg.jpg);
+        }
+        #logo {
+            position: absolute;
+            right: 10px;
+            top: 13px;
+            height: 50px;
+        }
+        footer > div {
+            max-width: 100%;
+            text-align: right;
+        }
+        .tab {
+            margin-left: 30px;
+        }
+        h2 {
+            color: #d1d0cf;
+        }
+        .orange {
+            color: #f3cd60;
+        }
+        ul ul {
+            padding: 4px;
+            margin-left: 23px;
+            margin-right: 80px;
+            list-style-type: none;
+            color: #fbeec9;
+            border: 1px solid #747065;
+            background-color: #20201e;
+            font-weight: bold;
+            list-style: none;
+        }
+        #otsideUL > li {
+            background-image: url(images/bullet.jpg);
+            background-position: left 11px;
+            background-repeat: no-repeat;
+            list-style-position: inside;
+            list-style: none;
+            padding-left: 15px;
+        }
+    </style>
+    <body>
+        <header>
+            <img id="logo" src="images/softuni_logo.png" alt="" />
+            <h1 class="orange">Heading and Paragraphs</h1>
+        </header>
+        <section>
+            <ul id="otsideUL">
+                <li>
+                    <h2>Heading Tags: <span class="orange">&lt;h1&gt;</span> &mdash; <span class="orange">&lt;/h1&gt;</span></h2>
+                    <ul>
+                        <li>&lt;h1&gt;Heading 1&lt;/h1&gt;</li>
+                        <li>&lt;h2&gt;Sub Heading 2&lt;/h2&gt;</li>
+                        <li>&lt;h3&gt;Sub Heading 3&lt;/h3&gt;</li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Paragraph Tags: <span class="orange">&lt;p&gt;</span></h2>
+                    <ul>
+                        <li>&lt;p&gt;This is my first paragraph&lt;/p&gt;</li>
+                        <li>&lt;p&gt;This is my second paragraph&lt;/p&gt;</li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Sections: <span class="orange">&lt;div&gt;</span> and <span class="orange">&lt;span&gt;</span></h2>
+                    <ul>
+                        <li>&lt;div style="background: skyblue;"&gt;<br /><span class="tab">This is a div</span><br />&lt;/div&gt;</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <div>22</div>
+        </footer>
+    </body>
+</html>

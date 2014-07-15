@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:"Arial";
+    font-size: 13px;
+    background: #101415;
+}
+#wrapper{
+    /*width:100%;*/
+    max-width:900px;
+    height:100%;
+    margin:0 auto;
+    background: #ddd;
+}
+.header-img{
+    display: block;
+    background: url("../img/headerBackground.jpg");
+    height: 270px;
+}
+#wrapper header .header-img h1{
+    color: #fff;
+    position: relative;
+    float: right;
+    top:200px;
+    right: 40px;
+    font-size: 30px;
+}
+#wrapper nav ul li{
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #ffffff;
+    border-collapse: collapse;
+    -webkit-margin-before: 0em;
+}
+#wrapper nav ul li a{
+    padding: 0 30px;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: #818178;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#wrapper nav ul li a:hover{
+    color: #fff;
+    background: #B8B8B8;
+}
+main{
+    height: 700px;
+    background: #fff;
+    padding: 20px 40px;
+}
+aside{
+    float: right;
+
+}
+aside .news{
+    border: 1px solid silver;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding: 0px 20px;
+    padding-top: 20px;
+
+}
+aside .news h2{
+    color: #87BA0B;
+    text-transform: uppercase;
+}
+aside .news>div{
+    padding: 10px 0;
+}
+aside .news>div a{
+    color: #87BA0B;
+}
+.date{
+    font-weight: bold;
+}
+
+aside .messages {
+    margin-top: 10px;
+    max-width: 165px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 0px 20px;
+
+}
+aside .messages h2{
+    padding: 20px 0;
+    color: #87BA0B;
+    text-transform: uppercase;
+}
+.more{
+    text-decoration: underline;
+    color: #87BA0B;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+section{
+    max-width:530px ;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+section h1{
+    color: #87BA0B;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+section h2{
+    color: #87BA0B;
+
+}
+section p span{
+    font-weight: bold;
+}
+section article {
+    position: relative;
+    clear: both;
+    padding-top: 20px;
+    bottom: -10px;
+}
+section article img{
+    padding-right: 20px;
+}
+section article h5{
+    padding-bottom: 15px;
+}
+section:nth-child(1) article{
+    padding-top: 0px;
+}
+footer{
+    background: #8CC624;
+    height: 100px;
+}
+footer p {
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+footer p a{
+    color: #425129;
+}

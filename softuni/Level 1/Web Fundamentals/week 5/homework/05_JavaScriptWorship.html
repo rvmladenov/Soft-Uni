@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>JavaScript Worship</title>
+        <style>
+            canvas {
+                border: 3px dashed red;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" width="160" height="180">
+            Not supported by you browser
+        </canvas>
+        
+        <script>
+            var c = document.getElementById("canvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "20px Tahoma";
+            ctx.fillText('I love JavaScript', 5, 30);
+
+            ctx.fillStyle = "orange";
+            ctx.fillRect(25, 50, 110, 110);
+
+            ctx.fillStyle = "black";
+            ctx.font = "bold 70px Arial";
+            ctx.fillText('JS', 48, 155);
+        </script>
+    </body>
+</html>

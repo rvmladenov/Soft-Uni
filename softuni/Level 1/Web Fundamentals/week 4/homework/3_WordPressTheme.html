@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8" />
+		<title>WordPress Theme</title>
+        <style>
+            input[type="text"] {
+                padding: 5px;
+                margin: 0px;
+            }
+            input[type="image"]{
+                height: 30px;
+            }
+            div:last-child > * {
+                display: inline-block;
+                vertical-align: bottom;
+                margin-top: 20px;
+            }
+            form > img {
+                height: 100px;
+            }
+        </style>
+    </head>
+<body>
+    <form method="get">
+        <img src="images/big_logo.png" />
+        <div>
+            <span>Upload a theme</span>
+            <input type="submit" name="clearForm" value="Choose file" />
+            <label>No file chosen</label>
+        </div>
+        <div>
+            <label>Or search in wordpress</label>
+            <input type="text" name="text" id="text" pattern="[A-Za-z]+" />
+            <input type="image" src="images/small_logo.png" />
+        </div>
+    </form>
+</body>
+</html>

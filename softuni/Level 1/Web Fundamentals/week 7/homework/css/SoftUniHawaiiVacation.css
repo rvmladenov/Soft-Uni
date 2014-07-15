@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Animated ;
+    src: url(../images/Animated.ttf);
+}
+body{
+    font-family: Animated ;
+}
+#wrapper{
+    margin: 0 auto;
+    position: relative;
+    background: rgb(255,250,107); /* Old browsers */
+    background: radial-gradient(ellipse at center, rgba(255,250,107,1) 3%,rgba(255,255,255,1) 17%,rgba(0,106,219,1) 48%); /* W3C */
+    width: 900px;
+    height: 600px;
+    background-position: -170px -160px;
+}
+#wrapper img{
+    position: absolute;
+}
+#wrapper>p{
+    padding: 15px;
+    font-size: 40px;
+    float: right;
+    color: #E9B630;
+}
+.vladoG{
+    top: 220px;
+    left: 40px;
+}
+.petia{
+    top: 185px;
+    left: 185px;
+}
+.tedi{
+    top:357px;
+    left: 267px;
+}
+.nakov{
+    top: 150px;
+    left: 420px;
+}
+.alex{
+    top:200px;
+    left:500px;
+}
+.vladoK{
+    top: 230px;
+    left:680px;
+}
+
+
+

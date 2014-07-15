@@ -1,0 +1,78 @@
+body {
+    margin: 2px;
+}
+#body {
+    border: 2px solid #000;
+    background-color: #ffff00;
+    position: relative;
+    height: 293px;
+    width: 293px;
+    border-radius: 50%;
+}
+#eyes {
+    position: relative;
+    top: 53px;
+    left: 52px;
+    width: 178px;
+}
+#eyes > div {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    height: 55px;
+    width: 56px;
+    position: absolute;
+}
+#eyes > div:after {
+    background-color: #000;
+    content: "";
+    padding: 9px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    right: 9px;
+}
+#eyes > div:first-child {
+    left: 0px;
+}
+#eyes > div:last-child {
+    right: 0px;
+}
+#eyes > div:last-child:after {
+    bottom: 37px;
+    right: 38px;
+}
+#nose {
+    width: 43px;
+    height: 43px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #fe0000;
+    position: absolute;
+    top: 118px;
+    left: 118px;
+}
+#mouth {
+    position: absolute;
+    top: 177px;
+    left: 67px;
+    width: 144px;
+    height: 55px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 29px;
+}
+#mouth > div {
+    height: 26px;
+    width: 25px;
+    border: 2px solid #000;
+    border-top: 0;
+    position: absolute;
+    top: 0px;
+    left: 44px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#mouth > div:last-child {
+    left: 73px
+}
