@@ -7,4 +7,4 @@
 
 $firstNumber = isset($argv[1]) ? $argv[1] : 2;
 $secondNumber = isset($argv[2]) ? $argv[2] : 5;
-echo number_format($firstNumber + $secondNumber, 2);
+echo '$firstNumber + $secondNumber' . " = {$firstNumber} + {$secondNumber} = " . number_format($firstNumber + $secondNumber, 2);

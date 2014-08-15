@@ -23,17 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="9_AwesomeCalendar.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/9_AwesomeCalendar.php">
+      <file leaf-file-name="2_SumTwoNumbers.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_SumTwoNumbers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="34" selection-start="707" selection-end="707" vertical-scroll-proportion="0.6730769" vertical-offset="299" max-vertical-offset="1836">
-              <folding>
-                <marker date="1408119842750" expanded="true" signature="448:1437" placeholder="..." />
-                <marker date="1408119842750" expanded="true" signature="459:1217" placeholder="..." />
-                <marker date="1408119842750" expanded="true" signature="1228:1437" placeholder="..." />
-                <marker date="1408119842750" expanded="true" signature="1389:1437" placeholder="..." />
-                <marker date="1408119842750" expanded="true" signature="2773:2937" placeholder="..." />
-              </folding>
+            <state line="9" column="38" selection-start="374" selection-end="374" vertical-scroll-proportion="0.2802198" vertical-offset="0" max-vertical-offset="364">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,7 +43,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/1_PersonalInfo.php" />
-        <option value="$PROJECT_DIR$/2_SumTwoNumbers.php" />
         <option value="$PROJECT_DIR$/3_DumpVariable.php" />
         <option value="$PROJECT_DIR$/4_NonRepeatingDigits.php" />
         <option value="$PROJECT_DIR$/5_LazySundays.php" />
@@ -57,6 +50,7 @@
         <option value="$PROJECT_DIR$/7_FormData.php" />
         <option value="$PROJECT_DIR$/8_TimeUntilNewYear.php" />
         <option value="$PROJECT_DIR$/9_AwesomeCalendar.php" />
+        <option value="$PROJECT_DIR$/2_SumTwoNumbers.php" />
       </list>
     </option>
   </component>
@@ -277,7 +271,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_SumTwoNumbers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
+        <state line="9" column="43" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_DumpVariable.php">
@@ -307,7 +303,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_SumTwoNumbers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="256" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255" />
+        <state line="7" column="46" selection-start="256" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_DumpVariable.php">
@@ -332,17 +330,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_SumTwoNumbers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153" />
+        <state line="2" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1_PersonalInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="54" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SumTwoNumbers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="379" selection-end="379" vertical-scroll-proportion="0.27818182" vertical-offset="0" max-vertical-offset="550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_DumpVariable.php">
@@ -379,12 +374,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="34" selection-start="707" selection-end="707" vertical-scroll-proportion="0.6730769" vertical-offset="299" max-vertical-offset="1836">
           <folding>
-            <marker date="1408119842750" expanded="true" signature="448:1437" placeholder="..." />
-            <marker date="1408119842750" expanded="true" signature="459:1217" placeholder="..." />
-            <marker date="1408119842750" expanded="true" signature="1228:1437" placeholder="..." />
-            <marker date="1408119842750" expanded="true" signature="1389:1437" placeholder="..." />
-            <marker date="1408119842750" expanded="true" signature="2773:2937" placeholder="..." />
+            <marker date="1408119842750" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408119842750" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408119842750" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408119842750" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408119842750" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SumTwoNumbers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="374" selection-end="374" vertical-scroll-proportion="0.2802198" vertical-offset="0" max-vertical-offset="364">
+          <folding />
         </state>
       </provider>
     </entry>
