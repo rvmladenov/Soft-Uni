@@ -2,8 +2,8 @@
 
 $input = isset($argv[1]) ? $argv[1] : 1.234;
 
-if(is_numeric($input)) {
+if(is_numeric($input)) :
     var_dump($input);
-} else {
+else :
     gettype($input);
-}
+endif;

@@ -1,5 +1,6 @@
 <?php
 $year = 2014;
+
 if(isset($_GET['year']) && is_numeric($_GET['year'])) {
     $year = $_GET['year'];
 }
@@ -46,19 +47,23 @@ $monthsNames = [
                 flex-wrap: wrap;
                 justify-content: space-between;
             }
-            h1 {
-                font-size: 5em;
+            input[type="number"] {
+                font-size: 4.2em;
                 margin: 0em;
+                padding: 0 100px;
+                border: 0;
             }
         </style>
     </head>
     <body>
-        <h1><?= $year; ?></h1>
+        <form action="" method="get" id="year">
+            <input type="number" value="<?= $year; ?>" name="year" onchange="this.form.submit()" />
+        </form>
         <hr />
         <section id="calendar">
             <?php for($month = 1; $month <= 12; $month++) : ?>
             <table>
-                <caption><?= $monthsNames[date('F', strtotime($year . "-" . $month . "-01"))]; ?></caption>
+                <caption><?= $monthsNames[date('F', strtotime($year . "-" . $month))]; ?></caption>
                 <tr>
                     <th>По</th>
                     <th>Вт</th>
@@ -69,15 +74,15 @@ $monthsNames = [
                     <th>Не</th>
                 </tr>
                 <?php
-                $totalDaysOfMonth = date('t', strtotime($year . "-" . $month . "-01"));
-                $whiteSpacesOfFirstWeek = date('N', strtotime($year . "-" . $month . "-01")) - 1;
+                $totalDaysOfMonth = date('t', strtotime($year . "-" . $month));
+                $whiteSpacesOfFirstWeek = date('N', strtotime($year . "-" . $month)) - 1;
 
                 echo '<tr>';
                 for($day = 1; $day <= $totalDaysOfMonth; $day++) :
 
                     // Fills the empty fields of the first week of each month
                     if($day == 1) {
-                        for($iEmpty = 1; $iEmpty <= $whiteSpacesOfFirstWeek; $iEmpty++) {
+                        for($iEmpty = 0; $iEmpty < $whiteSpacesOfFirstWeek; $iEmpty++) {
                             echo "<td>&nbsp;</td>";
                         }
                     }

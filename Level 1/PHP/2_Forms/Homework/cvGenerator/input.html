@@ -1,0 +1,138 @@
+<form method="post">
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div><input type="text" name="firstName" placeholder="First Name" /></div>
+        <div><input type="text" name="lastName" placeholder="Last Name" /></div>
+        <div><input type="email" name="email" placeholder="Email" /></div>
+        <div><input type="text" name="phoneNumber" placeholder="Phone Number" /></div>
+        <div>
+            <input type="radio" name="sex" value="female" checked />
+            <input type="radio" name="sex" value="male" />
+        </div>
+        <div>
+            <label for="birthDt">Birth Date</label><br />
+            <input type="date" name="birthDt" id="birthDt" placeholder="dd/mm/yyyy" />
+        </div>
+        <div>
+            <label for="nationality">Birth Date</label><br />
+            <select name="nationality" id="nationality">
+                <option value="bg">Bulgarian</option>
+                <option value="ru">Russia</option>
+                <option value="usa">United States Of my ass</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Last Work Position</legend>
+        <div>
+            <label for="companyName">Company Name</label>
+            <input type="text" name="companyName" id="companyName" />
+        </div>
+        <div>
+            <label for="fromDt">From</label>
+            <input type="date" name="fromDt" id="fromDt" placeholder="dd/mm/yyyy" />
+        </div>
+        <div>
+            <label for="toDt">To</label>
+            <input type="date" name="toDt" id="toDt" placeholder="dd/mm/yyyy" />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Computer Skills</legend>
+        <p>Programming Languages</p>
+        <div id="pcSkillsElements">
+            <div class="selectLang">
+                <input type="text" name="programLangs[]" />
+                <select name="programLangsLvl[]">
+                    <option value="a">Beginner</option>
+                    <option value="b">Else</option>
+                    <option value="c">Master</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button id="removeProgramLang">Remove Language</button>
+            <button id="addProgramLang">Add Language</button>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Skills</legend>
+        <p>Languages</p>
+        <div id="otherSkillsInputs">
+            <div class="selectLang">
+                <input type="text" name="otherLangs[]" />
+                <select name="comprehension[]">
+                    <option disabled>-Comprehension-</option>
+                    <option value="a">Noob</option>
+                    <option value="b">Intermediate</option>
+                    <option value="c">Master</option>
+                    <option value="d">Guru</option>
+                </select>
+                <select name="reading[]">
+                    <option disabled>-Reading-</option>
+                    <option value="a">Beginner</option>
+                    <option value="b">Other</option>
+                    <option value="c">Master</option>
+                    <option value="d">Guru</option>
+                </select>
+                <select name="writing[]">
+                    <option disabled>-Writing-</option>
+                    <option value="a">Beginner</option>
+                    <option value="b">Other</option>
+                    <option value="c">Master</option>
+                    <option value="d">Guru</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button id="removeOtherLang">Remove Language</button>
+            <button id="addOtherLang">Add Language</button>
+        </div>
+        <div>
+            <span>Driver's License</span><br />
+            <label for="licenseB">B</label><input type="checkbox" id="licenseB" value="b" />
+            <label for="licenseA">A</label><input type="checkbox" id="licenseA" value="a" />
+            <label for="licenseC">C</label><input type="checkbox" id="licenseC" value="c" />
+        </div>
+    </fieldset>
+    <div>
+        <input type="submit" value="Generate CV" name="submit" />
+    </div>
+</form>
+<script>
+    document.getElementById('removeProgramLang').addEventListener('click', function(ev){
+        var parent = document.getElementById('pcSkillsElements');
+        if(parent.children.length > 1) {
+            parent.removeChild(parent.children[parent.children.length - 1]);
+        }
+        ev.preventDefault();
+    });
+
+    document.getElementById('addProgramLang').addEventListener('click', function(ev){
+        var parent = document.getElementById('pcSkillsElements');
+        var nodeToClone = parent.querySelector(".selectLang").cloneNode(true);
+        nodeToClone.firstElementChild.value = '';
+        parent.appendChild(nodeToClone);
+        ev.preventDefault();
+    });
+
+    document.getElementById('removeOtherLang').addEventListener('click', function(ev){
+        var parent = document.getElementById('otherSkillsInputs');
+        if(parent.children.length > 1) {
+            parent.removeChild(parent.children[parent.children.length - 1]);
+        }
+        ev.preventDefault();
+    });
+
+    document.getElementById('addOtherLang').addEventListener('click', function(ev){
+        var parent = document.getElementById('otherSkillsInputs');
+        var nodeToClone = parent.querySelector(".selectLang").cloneNode(true);
+        nodeToClone.firstElementChild.value = '';
+        parent.appendChild(nodeToClone);
+        ev.preventDefault();
+    });
+</script>
