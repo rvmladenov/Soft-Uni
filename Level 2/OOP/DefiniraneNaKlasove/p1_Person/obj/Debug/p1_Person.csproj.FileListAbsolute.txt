@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p1_Person\bin\Debug\p1_Person.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p1_Person\bin\Debug\p1_Person.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p1_Person\bin\Debug\p1_Person.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p1_Person\obj\Debug\p1_Person.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p1_Person\obj\Debug\p1_Person.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p1_Person\obj\Debug\p1_Person.pdb

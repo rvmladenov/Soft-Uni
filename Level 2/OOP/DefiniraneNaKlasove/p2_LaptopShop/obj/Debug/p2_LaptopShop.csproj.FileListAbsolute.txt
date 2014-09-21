@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p2_LaptopShop\bin\Debug\p2_LaptopShop.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p2_LaptopShop\bin\Debug\p2_LaptopShop.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p2_LaptopShop\bin\Debug\p2_LaptopShop.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p2_LaptopShop\obj\Debug\p2_LaptopShop.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p2_LaptopShop\obj\Debug\p2_LaptopShop.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\p2_LaptopShop\obj\Debug\p2_LaptopShop.pdb

@@ -1,0 +1,2 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\Definirane na klasove\DefiniraneNaKlasove\bin\Debug\DefiniraneNaKlasove.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\DefiniraneNaKlasove\bin\Debug\DefiniraneNaKlasove.exe.config
