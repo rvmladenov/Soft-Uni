@@ -1,0 +1,1 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\bin\Debug\InheritanceAndAbstraction.exe.config
