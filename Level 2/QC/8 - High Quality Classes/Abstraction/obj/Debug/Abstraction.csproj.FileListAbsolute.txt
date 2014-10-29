@@ -1,0 +1,5 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Abstraction\bin\Debug\Abstraction.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Abstraction\bin\Debug\Abstraction.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Abstraction\obj\Debug\Abstraction.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Abstraction\obj\Debug\Abstraction.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Abstraction\obj\Debug\Abstraction.pdb

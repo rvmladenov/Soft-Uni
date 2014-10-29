@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\4 - WorkingWithExceptions\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\4 - WorkingWithExceptions\ExceptionHandling\obj\Debug\ExceptionHandling.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\4 - WorkingWithExceptions\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\4 - WorkingWithExceptions\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\4 - WorkingWithExceptions\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\4 - WorkingWithExceptions\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

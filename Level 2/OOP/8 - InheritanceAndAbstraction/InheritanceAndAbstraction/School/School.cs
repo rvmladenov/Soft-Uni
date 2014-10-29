@@ -1,15 +1,18 @@
-﻿namespace InheritanceAndAbstraction.School
+﻿namespace SchoolSystem
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
-    abstract class School
+    public class School
     {
-        private IList<SchoolClass> classes { get; set; }
-
         public School(IList<SchoolClass> classes)
         {
-            this.classes = classes;
+            this.Classes = classes;
         }
+
+        public IList<SchoolClass> Classes { get; set; }
     }
 }

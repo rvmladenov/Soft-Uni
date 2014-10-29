@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\5 - Other types in OOP\OthertypesInOOP\bin\Debug\OthertypesInOOP.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\5 - Other types in OOP\OthertypesInOOP\bin\Debug\OthertypesInOOP.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\5 - Other types in OOP\OthertypesInOOP\bin\Debug\OthertypesInOOP.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\5 - Other types in OOP\OthertypesInOOP\obj\Debug\OthertypesInOOP.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\5 - Other types in OOP\OthertypesInOOP\obj\Debug\OthertypesInOOP.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\5 - Other types in OOP\OthertypesInOOP\obj\Debug\OthertypesInOOP.pdb

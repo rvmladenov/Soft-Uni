@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\9 - CapsulationAndPolymorphism\CapsulationAndPolymorphism\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\9 - CapsulationAndPolymorphism\CapsulationAndPolymorphism\Shapes\bin\Debug\Shapes.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\9 - CapsulationAndPolymorphism\CapsulationAndPolymorphism\Shapes\bin\Debug\Shapes.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\9 - CapsulationAndPolymorphism\CapsulationAndPolymorphism\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\9 - CapsulationAndPolymorphism\CapsulationAndPolymorphism\Shapes\obj\Debug\Shapes.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\9 - CapsulationAndPolymorphism\CapsulationAndPolymorphism\Shapes\obj\Debug\Shapes.pdb

@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\7 - Functional Programming\Functional Programming\bin\Debug\Functional Programming.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\7 - Functional Programming\Functional Programming\obj\Debug\Functional Programming.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\7 - Functional Programming\Functional Programming\bin\Debug\Functional Programming.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\7 - Functional Programming\Functional Programming\bin\Debug\Functional Programming.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\7 - Functional Programming\Functional Programming\obj\Debug\Functional Programming.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\7 - Functional Programming\Functional Programming\obj\Debug\Functional Programming.pdb

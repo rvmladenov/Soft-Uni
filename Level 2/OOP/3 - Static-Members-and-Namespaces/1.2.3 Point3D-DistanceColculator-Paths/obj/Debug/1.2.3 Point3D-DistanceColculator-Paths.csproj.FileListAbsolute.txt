@@ -1,0 +1,5 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\3 - Static-Members-and-Namespaces\1.2.3 Point3D-DistanceColculator-Paths\bin\Debug\1.2.3 Point3D-DistanceColculator-Paths.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\3 - Static-Members-and-Namespaces\1.2.3 Point3D-DistanceColculator-Paths\bin\Debug\1.2.3 Point3D-DistanceColculator-Paths.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\3 - Static-Members-and-Namespaces\1.2.3 Point3D-DistanceColculator-Paths\obj\Debug\1.2.3 Point3D-DistanceColculator-Paths.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\3 - Static-Members-and-Namespaces\1.2.3 Point3D-DistanceColculator-Paths\obj\Debug\1.2.3 Point3D-DistanceColculator-Paths.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\3 - Static-Members-and-Namespaces\1.2.3 Point3D-DistanceColculator-Paths\obj\Debug\1.2.3 Point3D-DistanceColculator-Paths.pdb

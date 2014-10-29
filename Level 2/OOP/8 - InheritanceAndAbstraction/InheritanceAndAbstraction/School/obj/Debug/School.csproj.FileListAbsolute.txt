@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\School\bin\Debug\School.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\School\bin\Debug\School.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\School\bin\Debug\School.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\School\obj\Debug\School.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\8 - InheritanceAndAbstraction\InheritanceAndAbstraction\School\obj\Debug\School.pdb

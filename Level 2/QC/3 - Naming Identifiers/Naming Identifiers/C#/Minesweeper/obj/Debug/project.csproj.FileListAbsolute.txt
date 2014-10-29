@@ -1,0 +1,7 @@
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Mini4ki\bin\Debug\Minesweeper.exe
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Mini4ki\bin\Debug\Minesweeper.pdb
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Mini4ki\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Mini4ki\obj\Debug\Minesweeper.exe
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Mini4ki\obj\Debug\Minesweeper.pdb
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\rvm\Desktop\softuni\level 2\КПК\3 - Naming Identifiers\C#\Minesweeper\obj\Debug\Minesweeper.pdb

@@ -1,0 +1,5 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\StringDisperserProblem\bin\Debug\StringDisperserProblem.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\StringDisperserProblem\bin\Debug\StringDisperserProblem.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\StringDisperserProblem\bin\Debug\StringDisperserProblem.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\StringDisperserProblem\obj\Debug\StringDisperserProblem.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\StringDisperserProblem\obj\Debug\StringDisperserProblem.pdb

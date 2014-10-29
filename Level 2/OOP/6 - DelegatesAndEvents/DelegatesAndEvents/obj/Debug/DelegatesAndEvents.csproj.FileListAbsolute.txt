@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\6 - DelegatesAndEvents\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\6 - DelegatesAndEvents\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\6 - DelegatesAndEvents\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\6 - DelegatesAndEvents\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\6 - DelegatesAndEvents\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\6 - DelegatesAndEvents\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.pdb

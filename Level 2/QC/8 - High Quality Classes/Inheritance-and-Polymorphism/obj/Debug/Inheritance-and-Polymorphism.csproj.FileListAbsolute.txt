@@ -1,0 +1,4 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\QC\8 - High Quality Classes\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.pdb

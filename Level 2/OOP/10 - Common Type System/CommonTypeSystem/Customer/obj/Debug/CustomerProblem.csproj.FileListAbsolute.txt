@@ -1,0 +1,6 @@
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\Customer\obj\Debug\CustomerProblem.csprojResolveAssemblyReference.cache
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\Customer\bin\Debug\Customer.exe.config
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\Customer\bin\Debug\Customer.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\Customer\bin\Debug\Customer.pdb
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\Customer\obj\Debug\Customer.exe
+C:\Users\rvm\Documents\GitHub\Soft-Uni\Level 2\OOP\10 - Common Type System\CommonTypeSystem\Customer\obj\Debug\Customer.pdb
