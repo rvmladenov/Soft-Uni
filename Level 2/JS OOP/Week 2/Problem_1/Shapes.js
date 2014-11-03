@@ -11,7 +11,7 @@ var Shapes = (function(){
         };
 
         Shape.prototype.toString = function() {
-            return 'UI - X:' + this._x + ', Y:' + this._y + ', Color:' + this._x;
+            return 'UI - X:' + this._x + ', Y:' + this._y + ', Color:' + this._color;
         }
 
         return Shape;
@@ -30,7 +30,7 @@ var Shapes = (function(){
         };
 
         Circle.prototype.toString = function () {
-            return Shape.toString() + ', Radius: ' + this._radius;
+            return Shape.prototype.toString.apply(this) + ', Radius: ' + this._radius;
         };
 
         return Circle;
@@ -50,7 +50,7 @@ var Shapes = (function(){
         };
 
         Rectangle.prototype.toString = function () {
-            return Shape.toString() + ', Width: ' + this._width + ', Height: ' + this._height;
+            return Shape.prototype.toString.apply(this) + ', Width: ' + this._width + ', Height: ' + this._height;
         };
 
         return Rectangle;
@@ -72,7 +72,7 @@ var Shapes = (function(){
         };
 
         Triangle.prototype.toString = function () {
-            return Shape.toString() + ', X2: ' + this._x2 + ', Y2: ' + this._y2 + ', X3: ' + this._x3 + ', Y3: ' + this._y3;
+            return Shape.prototype.toString.apply(this) + ', X2: ' + this._x2 + ', Y2: ' + this._y2 + ', X3: ' + this._x3 + ', Y3: ' + this._y3;
         };
 
         return Triangle;
@@ -92,7 +92,7 @@ var Shapes = (function(){
         };
 
         Segment.prototype.toString = function () {
-            return Shape.bind(this) + ', X2: ' + this._x2 + ', Y2: ' + this._y2;
+            return Shape.prototype.toString.apply(this) + ', X2: ' + this._x2 + ', Y2: ' + this._y2;
         };
 
         return Segment;
@@ -123,7 +123,7 @@ var Shapes = (function(){
     };
 }());
 
-var point = new Shapes.Point(1, 2, "#FF0000");
+var point = new Shapes.Point(1, 69, "#FF0000");
 console.log(point.toString());
 
 var circle = new Shapes.Circle(1, 2, "#FF0000", 10);
@@ -132,7 +132,7 @@ console.log(circle.toString());
 var triangle = new Shapes.Triangle(1, 2, "#FF0000", 22, 33, 44, 55);
 console.log(triangle.toString());
 
-var rectangle = new Shapes.Rectangle(1, 2, "#FF0000", 100, 200);
+var rectangle = new Shapes.Rectangle(22, 2, "#FF0000", 100, 200);
 console.log(rectangle.toString());
 
 var segment = new Shapes.Segment(1, 2, "#FF0000", 11, 22);
