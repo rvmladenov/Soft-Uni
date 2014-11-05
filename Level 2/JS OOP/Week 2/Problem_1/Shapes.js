@@ -11,7 +11,7 @@ var Shapes = (function(){
         };
 
         Shape.prototype.toString = function() {
-            return 'UI - X:' + this._x + ', Y:' + this._y + ', Color:' + this._color;
+            return this.constructor.name + ' - X:' + this._x + ', Y:' + this._y + ', Color:' + this._color;
         }
 
         return Shape;
@@ -24,6 +24,7 @@ var Shapes = (function(){
         }
 
         Circle.prototype = new Shape();
+        Circle.prototype.constructor = Circle;
 
         Circle.prototype.draw = function () {
             console.log("Drawing Circle");
@@ -44,6 +45,7 @@ var Shapes = (function(){
         }
 
         Rectangle.prototype = new Shape();
+        Rectangle.prototype.constructor = Rectangle;
 
         Rectangle.prototype.draw = function () {
             console.log("Drawing Rectangle");
@@ -66,6 +68,7 @@ var Shapes = (function(){
         }
 
         Triangle.prototype = new Shape();
+        Triangle.prototype.constructor = Triangle;
 
         Triangle.prototype.draw = function () {
             console.log("Drawing Triangle");
@@ -86,6 +89,7 @@ var Shapes = (function(){
         }
 
         Segment.prototype = new Shape();
+        Segment.prototype.constructor = Segment;
 
         Segment.prototype.draw = function () {
             console.log("Drawing Segment");
@@ -106,6 +110,7 @@ var Shapes = (function(){
         }
 
         Point.prototype = new Shape();
+        Point.prototype.constructor = Point;
 
         Point.prototype.draw = function () {
             console.log("Drawing Point");
