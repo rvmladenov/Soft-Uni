@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="css/styles.css" />
@@ -18,4 +19,26 @@
     });
 </script>
 </body>
+=======
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script type="text/javascript" src="todoapp.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+
+                var todoApp = new TODOApp();
+                console.log(todoApp);
+
+                var todoContainer = new todoApp.Container("TODO App");
+                console.log(todoContainer);
+
+                var todoSection = new todoApp.Section("Section 1");
+                console.log(todoSection);
+
+            });
+        </script>
+    </body>
+>>>>>>> d7029aa2288d66ceaff788ab6a3059070bda557f
 </html>
