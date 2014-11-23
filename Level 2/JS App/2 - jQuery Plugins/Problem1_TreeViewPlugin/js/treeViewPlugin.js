@@ -2,10 +2,6 @@
     $.prototype.treeView = function(options) {
         'use strict';
 
-        var settings = $.extend({
-
-        }, options );
-
         var parentClassName = 'root';
         var activeClassName = 'active';
 
