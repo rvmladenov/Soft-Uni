@@ -1,0 +1,35 @@
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+li.root > span {
+    position: relative;
+    cursor: pointer;
+}
+
+li.root > span:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    border-bottom: 6px solid rgba(255, 255, 255, 0);
+    border-right: 6px solid rgba(255, 255, 255, 0);
+    border-top: 6px solid rgba(255, 255, 255, 0);
+    border-left: 6px solid red;
+    transition: all 0.1s;
+}
+
+li.root.active > span:before {
+    transform: rotate(90deg);
+    left: -15px;
+}
+
+li.root > ul {
+    max-height: 0;
+    overflow: hidden;
+}
+
+li.root.active > ul {
+    max-height: inherit;
+}

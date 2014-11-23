@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<script type="text/javascript" src="js/todoapp.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+        // Ima malko problemi s nasledqvaneto i ne mi ostana vreme za stilovete
+
+        var todoApp = new TODOApp();
+
+        var todoContainer = new todoApp.Container("TODO App");
+        todoContainer.addToDom();
+    });
+</script>
+</body>
+</html>

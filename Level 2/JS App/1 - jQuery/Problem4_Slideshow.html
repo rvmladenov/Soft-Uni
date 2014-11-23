@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 4 Slideshow</title>
+    <link rel="stylesheet" href="css/Problem4_Slideshow.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+</head>
+    <body>
+
+    <section>
+        <ul id="slider">
+            <li>Some sample data</li>
+            <li>Some sample data 2</li>
+            <li><img src="images/code.jpg" alt="" /></li>
+        </ul>
+    </section>
+
+        <script src="js/Problem4_Slideshow.js"></script>
+        <script>
+            $(function(){
+                $("#slider").slider({
+                    timerInterval : 3000 /** Default is 5000(5 seconds) */
+                });
+            });
+        </script>
+    </body>
+</html>
