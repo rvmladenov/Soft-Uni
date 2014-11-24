@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Problem 2 Fading Message Box</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/messageBox.js"></script>
+</head>
+    <body>
+        <div id="message-box"></div>
+
+        <a href="javascript:;" id="showSuccess">Show Success</a>
+        <a href="javascript:;" id="showError">Show Error</a>
+
+    <script>
+        $(function(){
+            var messageBox = $('#message-box').messageBox({
+                delayTime: 3000,
+                visibleClass: 'visible',
+                onErrorClass: 'error',
+                onSuccessClass: 'success'
+            });
+
+            document.getElementById("showSuccess").addEventListener("click", function(){
+                messageBox.success('Success message.');
+            }, false);
+
+
+            document.getElementById("showError").addEventListener("click", function(){
+                messageBox.error('Error message.');
+            }, false);
+
+        });
+    </script>
+    </body>
+</html>

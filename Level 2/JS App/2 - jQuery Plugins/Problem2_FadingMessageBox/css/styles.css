@@ -1,0 +1,29 @@
+#message-box {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin-top: 20%;
+    margin-left: 50%;
+    left: -150px;
+    top: -75px;
+    background: #f5f5f5;
+    border: 1px solid #b1b1b1;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+#message-box.visible {
+    opacity: 1;
+}
+
+#message-box.visible.error {
+    border: 1px solid red;
+    color: red;
+}
+
+#message-box.visible.success {
+    border: 1px solid green;
+    color: green;
+}
