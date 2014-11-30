@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/cerulean.theme.min.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <title>Poll</title>
+</head>
+    <body>
+
+        <section class="well" id="wrapper"></section>
+
+        <script src="js/jquery.noty.packaged.min.js"></script>
+        <script src="js/pollApp-templates.js"></script>
+        <script src="js/pollApp.js"></script>
+
+        <script>
+            $(function(){
+
+                var SAMPLE_DATA = [
+                    {
+                        id: '1',
+                        question: 'Who is the father of PHP ?',
+                        answers: [
+                            {A: 'Todor Jivkov'},
+                            {B: 'Svetlin Nakov'},
+                            {C: 'Pamela Anderson'},
+                            {D: 'Rasmus Lerdorf'}
+                        ],
+                        correctAnswers: ['D']
+                    },
+                    {
+                        id: '2',
+                        question: 'What does PHP stands for ?',
+                        answers: [
+                            {A: 'Personal Home Pages'},
+                            {B: 'Private Home Pages'},
+                            {C: 'Hypertext Preprocessor'},
+                            {D: 'Private Hypertext Preprocessor'}
+                        ],
+                        correctAnswers: ['C']
+                    },
+                    {
+                        id: '3',
+                        question: 'How many letter are in the Bulgarian alphabet ?',
+                        answers: [
+                            {A: '26'},
+                            {B: '28'},
+                            {C: '30'},
+                            {D: '32'}
+                        ],
+                        correctAnswers: ['C']
+                    }
+                ];
+
+                var poll = new PollApp(SAMPLE_DATA);
+
+            });
+        </script>
+
+    </body>
+</html>
