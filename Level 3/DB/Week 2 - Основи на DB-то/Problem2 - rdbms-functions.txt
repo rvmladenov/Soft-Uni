@@ -1,0 +1,12 @@
+1. Data Organization
+2. Data integration
+3. Physical/logical level separation
+4. Data control
+5. Data protection
+6. Data stores
+7. Data definition and data directory
+8. Interrogation
+9. Updating
+10. Creation
+
+For more info: http://understandingrdbms.blogspot.com/2013/04/functions-performed-by-dbms.html

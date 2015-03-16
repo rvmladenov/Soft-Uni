@@ -1,0 +1,1 @@
+A db transaction is a unit of work that you want to treat as "a whole". It has to either happen in full, or not at all.

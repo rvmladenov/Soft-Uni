@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="problem1App">
+<head>
+    <meta charset="utf-8">
+    <title>Problem 1 [Student Page]</title>
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-theme.min.css" />
+
+    <script src="../libs/bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+
+<section ng-controller="studentPage"><h1 class="page-header">Student Page</h1>
+    <ul class="list-unstyled list-group" ng-repeat="abjArrItem in sampleObjArr">
+        <li class="list">Name: {{abjArrItem.name}}</li>
+        <li class="list">Photo:<br /> <img ng-src="{{abjArrItem.photo}}" alt="" /> </li>
+        <li class="list">Grade: {{abjArrItem.grade}}</li>
+        <li class="list">School: {{abjArrItem.school}}</li>
+        <li class="list">Teacher: {{abjArrItem.teacher}}</li>
+    </ul>
+</section>
+
+<script type="text/javascript">
+
+    var app = angular.module('problem1App', []);
+    app.controller('studentPage', function ($scope) {
+        $scope.sampleObjArr = [
+            {
+                "name": "Pesho",
+                "photo": "http://www.nakov.com/wp-content/uploads/2014/05/SoftUni-Logo.png",
+                "grade": 5,
+                "school": "High School of Mathematics",
+                "teacher": "Gichka Pesheva"
+            }
+        ];
+    });
+
+</script>
+</body>
+</html>

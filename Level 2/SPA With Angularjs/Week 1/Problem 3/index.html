@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="problem3App">
+<head>
+    <meta charset="utf-8">
+    <title>Problem 3 [Tiger]</title>
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-theme.min.css" />
+
+    <script src="../libs/bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+
+<section ng-controller="tigerCtrl"><h1 class="page-header">Tiger</h1>
+    <div class="row" ng-repeat="abjArrItem in sampleObjArr">
+        <ul class="col-md-2 list-unstyled">
+            <li class="list"><span ng-style="bolded">Name</span>: {{abjArrItem.name}}</li>
+            <li class="list"><span ng-style="bolded">Born</span>: {{abjArrItem.born}}</li>
+            <li class="list"><span ng-style="bolded">Birth date</span>: {{abjArrItem.birthDay}}</li>
+            <li class="list"><span ng-style="bolded">Live</span>: {{abjArrItem.live}}</li>
+        </ul>
+        <div class="col-md-6"><img ng-style="img" ng-src="{{abjArrItem.photo}}" alt="" /></div>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+    var app = angular.module('problem3App', []);
+    app.controller('tigerCtrl', function ($scope) {
+        $scope.sampleObjArr = [
+            {
+                name: "Pesho",
+                photo: "http://tigerday.org/wp-content/uploads/2013/04/tiger.jpg",
+                born: 'Asia',
+                birthDay: 2006,
+                live: 'Sofia Zoo'
+            }
+        ];
+
+        $scope.img = {'height': '200px'};
+        $scope.bolded = {'font-weight': 'bold'};
+    });
+
+</script>
+</body>
+</html>

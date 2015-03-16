@@ -1,0 +1,3 @@
+ - 1-to-1: Both sides of the relationship have a degree of one and only one. (1-to-1 relationships are rare.)
+ - 1-to-M: One of the sides has a degree of one or many and the other side has a degree of one and only one.
+ - M-to-M: Both sides of the relationship are one or many relationships.

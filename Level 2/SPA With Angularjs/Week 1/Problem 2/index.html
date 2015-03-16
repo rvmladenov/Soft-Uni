@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="problem2App">
+<head>
+    <meta charset="utf-8">
+    <title>Problem 2 [Bind Image Source to Text Box]</title>
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-theme.min.css"/>
+
+    <script src="../libs/bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+
+<section ng-controller="bindImage"><h1 class="page-header">Bind Image Source to Text Box</h1>
+
+    <input type="text" class="form-control" id="imgPath" ng-model="sampleImagePath" />
+    <img ng-src="{{sampleImagePath}}" alt="" />
+
+</section>
+
+<script type="text/javascript">
+
+    var sampleImagePath = 'http://www.nakov.com/wp-content/uploads/2014/05/SoftUni-Logo.png';
+    var sampleImagePath2 = 'http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg';
+
+    var app = angular.module('problem2App', []);
+    app.controller('bindImage', function ($scope) {
+        $scope.sampleImagePath = sampleImagePath2;
+    });
+
+
+</script>
+</body>
+</html>

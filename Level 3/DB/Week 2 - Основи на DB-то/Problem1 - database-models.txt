@@ -1,0 +1,6 @@
+Database models:
+ - Relational Model
+ - Network Model
+ - Documet Model
+ - Semantic Model
+ - Associative Model - In the associative model, everything which has “discrete independent existence” is modeled as an entity, and relationships between them are modeled as associations. 

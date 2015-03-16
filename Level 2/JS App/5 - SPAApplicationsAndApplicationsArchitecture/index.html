@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Book</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.noty.packaged.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h2>Books</h2>
+            <button id="add_book">Add Book</button>
+            <form id="add_form">
+                <input type="text" id="author" placeholder="Author..." required>
+                <input type="text" id="title" placeholder="Title..." required>
+                <input type="text" id="isbn" placeholder="ISBN...">
+                <input type="button" value="Submit" id="submitNewBook">
+            </form>
+        </header>
+        <div id="content">
+
+        </div>
+    </div>
+    <script src="js/book.js"></script>
+    <script>
+        $(function(){
+
+            var bookLoaded = function(data) {
+                $('#content').html('');
+                for (var e in data.results) {
+                    var book = data.results[e];
+                    var bookItem = $('<div class="book_section">');
+                    var bookTitle = $('<p>').text("Title: " + book.title);
+                    var bookAuthor = $('<p>').text("Author: " + book.author);
+                    var booISBN = $('<p>').text(book.isbn ? "ISBN: " + book.isbn : "");
+                    $(bookItem).data('book', book);
+
+                    bookItem.append(bookTitle);
+                    bookItem.append(bookAuthor);
+                    bookItem.append(booISBN);
+                    $('#content').append(bookItem);
+                }
+            }
+
+            var success = function(data) {
+                noty({
+                    text        : 'Successfully loaded data',
+                    type        : 'success',
+                    layout      : 'top',
+                    theme       : 'defaultTheme'
+                });
+            };
+
+            var error = function(err) {
+                noty({
+                    text        : err.message,
+                    type        : 'error',
+                    dismissQueue: true,
+                    closeWith   : ['click', 'backdrop'],
+                    modal       : true,
+                    layout      : 'center',
+                    theme       : 'defaultTheme'
+                });
+            };
+
+            var book = new Book(success, error);
+            book.loadBooks();
+
+            $("#add_book").click(function () {
+                $('#add_form').show();
+            });
+
+            $("#submitNewBook").click(function () {
+                book.addBook();
+
+                book.loadBooks();
+            });
+        });
+    </script>
+</body>
+</html>
